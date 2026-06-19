@@ -1,0 +1,179 @@
+.exp-timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+/* Vertical line */
+.exp-timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  bottom: 12px;
+  width: 2px;
+  background: var(--accent);
+  border-radius: 1px;
+}
+
+.exp-entry {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.exp-entry:last-child {
+  margin-bottom: 0;
+}
+
+/* Timeline dot */
+.exp-timeline-dot {
+  position: absolute;
+  left: -36px;
+  top: 20px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg-base);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+
+/* Card */
+.exp-card {
+  background: var(--bg-surface);
+  border-radius: 8px;
+  padding: 24px;
+  transition: background 0.2s ease;
+}
+
+.exp-card:hover {
+  background: var(--bg-interactive);
+}
+
+/* Header */
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.exp-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.exp-company {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.exp-sublabel {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.exp-role {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.exp-duration {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+/* Tabs */
+.exp-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-muted);
+  padding-bottom: 12px;
+}
+
+.exp-tab {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.exp-tab:hover {
+  color: var(--text-primary);
+  background: var(--bg-card-alt);
+}
+
+.exp-tab.active {
+  background: rgba(30, 215, 96, 0.12);
+  color: var(--accent);
+}
+
+/* Bullets */
+.exp-bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.exp-bullet {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.65;
+}
+
+.exp-bullet-dot {
+  color: var(--accent);
+  flex-shrink: 0;
+  margin-top: 1px;
+  font-size: 12px;
+}
+
+.exp-bullet-title {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .exp-timeline {
+    padding-left: 24px;
+  }
+
+  .exp-timeline-dot {
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    top: 22px;
+  }
+
+  .exp-timeline::before {
+    left: 4px;
+  }
+
+  .exp-tabs {
+    gap: 6px;
+  }
+
+  .exp-tab {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}

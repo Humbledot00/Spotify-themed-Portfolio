@@ -1,0 +1,111 @@
+.education-card {
+  background: var(--bg-surface);
+  border-radius: 8px;
+  border-left: 4px solid var(--accent);
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  transition: background 0.2s ease;
+}
+
+.education-card:hover {
+  background: var(--bg-interactive);
+}
+
+.education-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.education-main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.education-institution {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.education-location {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.education-degree {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.education-duration {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.education-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* CGPA stat */
+.education-cgpa {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+.cgpa-number {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.cgpa-denom {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  align-self: flex-end;
+  margin-bottom: 8px;
+}
+
+.cgpa-label {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-top: 4px;
+}
+
+@media (max-width: 576px) {
+  .education-card {
+    padding: 24px;
+  }
+
+  .education-body {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .cgpa-number {
+    font-size: 40px;
+  }
+}

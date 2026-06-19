@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Disallow nothing — this is a public portfolio, full crawling is desired
+
+Sitemap: https://helloshreyas.vercel.app/sitemap.xml
