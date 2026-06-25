@@ -198,7 +198,7 @@ real-time systems, secure authentication, and banking-grade applications."
 → LinkedIn: linkedin.com/in/helloshreyass
 → GitHub:   github.com/Humbledot00
 → Email:    shreyasrao012@gmail.com
-→ Portfolio: helloshreyas.vercel.app
+→ Portfolio: helloshreyas.in
 ```
 
 **Design notes:**
@@ -579,7 +579,7 @@ Developed and maintained a secure database system supporting 217+ student member
 📧  Email        shreyasrao012@gmail.com
 💼  LinkedIn     linkedin.com/in/helloshreyass
 🐙  GitHub       github.com/Humbledot00
-🌐  Portfolio    helloshreyas.vercel.app
+🌐  Portfolio    helloshreyas.in
 📍  Location     Bengaluru, India
 📞  Phone        +91-8762387438
 ```
@@ -702,7 +702,7 @@ Paste this complete block inside `<head>` in `index.html`:
 <meta name="author" content="Shreyas M Rao" />
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="googlebot" content="index, follow" />
-<link rel="canonical" href="https://helloshreyas.vercel.app" />
+<link rel="canonical" href="https://helloshreyas.in" />
 
 <!-- ═══════════════════════════════════════════════
      OPEN GRAPH (Facebook, LinkedIn, WhatsApp previews)
@@ -711,8 +711,8 @@ Paste this complete block inside `<head>` in `index.html`:
 <meta property="og:site_name" content="Shreyas M Rao — Portfolio" />
 <meta property="og:title" content="Shreyas M Rao — Backend Software Engineer" />
 <meta property="og:description" content="Backend Engineer specializing in scalable microservices, real-time systems, and banking-grade Node.js & Spring Boot applications. Open to backend engineering opportunities." />
-<meta property="og:url" content="https://helloshreyas.vercel.app" />
-<meta property="og:image" content="https://helloshreyas.vercel.app/og-image.png" />
+<meta property="og:url" content="https://helloshreyas.in" />
+<meta property="og:image" content="https://helloshreyas.in/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="Shreyas M Rao — Backend Software Engineer Portfolio" />
@@ -724,7 +724,7 @@ Paste this complete block inside `<head>` in `index.html`:
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Shreyas M Rao — Backend Software Engineer" />
 <meta name="twitter:description" content="Backend Engineer specializing in scalable microservices, real-time systems, Node.js & Spring Boot. Based in Bengaluru." />
-<meta name="twitter:image" content="https://helloshreyas.vercel.app/og-image.png" />
+<meta name="twitter:image" content="https://helloshreyas.in/og-image.png" />
 <meta name="twitter:image:alt" content="Shreyas M Rao Portfolio" />
 <meta name="twitter:creator" content="@helloshreyass" />
 
@@ -759,13 +759,13 @@ Add this `<script>` block inside `<head>` — this is what Google uses for rich 
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://helloshreyas.vercel.app/#person",
+      "@id": "https://helloshreyas.in/#person",
       "name": "Shreyas M Rao",
       "alternateName": "helloshreyass",
-      "url": "https://helloshreyas.vercel.app",
+      "url": "https://helloshreyas.in",
       "image": {
         "@type": "ImageObject",
-        "url": "https://helloshreyas.vercel.app/og-image.png",
+        "url": "https://helloshreyas.in/og-image.png",
         "width": 1200,
         "height": 630
       },
@@ -800,7 +800,7 @@ Add this `<script>` block inside `<head>` — this is what Google uses for rich 
       "sameAs": [
         "https://linkedin.com/in/helloshreyass",
         "https://github.com/Humbledot00",
-        "https://helloshreyas.vercel.app"
+        "https://helloshreyas.in"
       ],
       "knowsAbout": [
         "Node.js",
@@ -837,22 +837,22 @@ Add this `<script>` block inside `<head>` — this is what Google uses for rich 
     },
     {
       "@type": "WebSite",
-      "@id": "https://helloshreyas.vercel.app/#website",
-      "url": "https://helloshreyas.vercel.app",
+      "@id": "https://helloshreyas.in/#website",
+      "url": "https://helloshreyas.in",
       "name": "Shreyas M Rao — Backend Software Engineer Portfolio",
       "description": "Portfolio of Shreyas M Rao, a Backend Software Engineer specializing in scalable microservices, real-time systems, and banking-grade applications.",
       "author": {
-        "@id": "https://helloshreyas.vercel.app/#person"
+        "@id": "https://helloshreyas.in/#person"
       },
       "inLanguage": "en-IN"
     },
     {
       "@type": "ProfilePage",
-      "@id": "https://helloshreyas.vercel.app/#profilepage",
-      "url": "https://helloshreyas.vercel.app",
+      "@id": "https://helloshreyas.in/#profilepage",
+      "url": "https://helloshreyas.in",
       "name": "Shreyas M Rao — Portfolio",
       "mainEntity": {
-        "@id": "https://helloshreyas.vercel.app/#person"
+        "@id": "https://helloshreyas.in/#person"
       }
     }
   ]
@@ -876,7 +876,7 @@ Left panel:   Name "Shreyas M Rao" in white, 64px bold
               Tags row: Node.js · Spring Boot · Docker · AWS — #b3b3b3, 18px
               Social: github.com/Humbledot00 · linkedin.com/in/helloshreyass
 Right panel:  Tech stack icons or terminal code snippet visual
-Bottom bar:   helloshreyas.vercel.app — accent green, 16px
+Bottom bar:   helloshreyas.in — accent green, 16px
 Border:       4px left strip in #1ed760
 ```
 
@@ -894,7 +894,7 @@ Allow: /
 
 # Disallow nothing — this is a public portfolio, full crawling is desired
 
-Sitemap: https://helloshreyas.vercel.app/sitemap.xml
+Sitemap: https://helloshreyas.in/sitemap.xml
 ```
 
 ---
@@ -907,31 +907,31 @@ Create `/public/sitemap.xml`:
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://helloshreyas.vercel.app/</loc>
+    <loc>https://helloshreyas.in/</loc>
     <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://helloshreyas.vercel.app/#about</loc>
+    <loc>https://helloshreyas.in/#about</loc>
     <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://helloshreyas.vercel.app/#experience</loc>
+    <loc>https://helloshreyas.in/#experience</loc>
     <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://helloshreyas.vercel.app/#projects</loc>
+    <loc>https://helloshreyas.in/#projects</loc>
     <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://helloshreyas.vercel.app/#contact</loc>
+    <loc>https://helloshreyas.in/#contact</loc>
     <lastmod>2025-07-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -1057,7 +1057,7 @@ Google ranks pages partly on Core Web Vitals. Implement all of the following:
 | `WebSocket` | Skills section, VCIP experience bullet |
 | `Redis BullMQ` | Skills section, Equitas Bank experience bullet |
 | `VCET Puttur` | Education section |
-| `helloshreyas.vercel.app` | Footer, canonical tag, OG url |
+| `helloshreyas.in` | Footer, canonical tag, OG url |
 
 ---
 
@@ -1129,7 +1129,7 @@ Create `vercel.json` in project root:
 ```
 [ ] <title> tag includes name + role + 2 key technologies (under 60 chars)
 [ ] <meta name="description"> is 140–160 characters, includes name + role + location
-[ ] Canonical URL set to https://helloshreyas.vercel.app
+[ ] Canonical URL set to https://helloshreyas.in
 [ ] robots.txt created at /public/robots.txt
 [ ] sitemap.xml created at /public/sitemap.xml
 [ ] JSON-LD Person schema added to <head>
@@ -1208,7 +1208,7 @@ Company:      Desk Nine Pvt Ltd, Bengaluru
 Email:        shreyasrao012@gmail.com
 LinkedIn:     linkedin.com/in/helloshreyass
 GitHub:       github.com/Humbledot00
-Portfolio:    helloshreyas.vercel.app
+Portfolio:    helloshreyas.in
 Phone:        +91-8762387438
 College:      VCET Puttur — B.E. CSE — CGPA 9.21
 Duration:     Dec 2021 – Jun 2025
