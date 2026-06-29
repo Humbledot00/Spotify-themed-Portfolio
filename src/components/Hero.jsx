@@ -49,6 +49,11 @@ export default function Hero() {
           <span className="cursor" aria-hidden="true">|</span>
         </h2>
 
+        <p className="hero-description animate-fade-in-up delay-350">
+          I build reliable backend systems for fintech, real-time platforms, and secure digital products using Node.js, Java Spring Boot, microservices, and modern authentication.
+          Explore my <a href="#projects">projects</a>, <a href="#experience">experience</a>, and <a href="#contact">contact details</a>.
+        </p>
+
         {/* CTA Buttons */}
         <div className="hero-buttons animate-fade-in-up delay-400">
           <button
