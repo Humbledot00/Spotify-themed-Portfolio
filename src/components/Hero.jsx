@@ -54,7 +54,10 @@ export default function Hero() {
           My work includes high-volume APIs, real-time communication services, queue-based workflows, and banking-grade platforms designed for performance, resilience, and clean maintainability.
         </p>
         <p className="hero-description animate-fade-in-up delay-360">
-          Shreyas M Rao is a backend engineer who enjoys turning complex requirements into dependable services that scale well and support business growth. Explore my <a href="#projects">projects</a>, <a href="#experience">experience</a>, and <a href="#contact">contact details</a>.
+          Shreyas M Rao is a backend engineer who enjoys turning complex requirements into dependable services that scale well and support business growth. I focus on API design, database performance, authentication, and service reliability for teams building modern software products.
+        </p>
+        <p className="hero-description animate-fade-in-up delay-370">
+          Explore my <a href="#projects">projects</a>, <a href="#experience">experience</a>, <a href="#skills">technical skills</a>, and <a href="#contact">contact details</a> to learn more about my engineering work.
         </p>
 
         {/* CTA Buttons */}

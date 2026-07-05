@@ -59,6 +59,11 @@ export default function About() {
               pragmatic testing, and strong collaboration with product and platform teams.
             </p>
             <p className="about-para reveal">
+              I also enjoy translating product requirements into practical architecture decisions,
+              improving developer workflows, and creating backend services that remain dependable
+              under scale, changing traffic patterns, and real-world operational pressure.
+            </p>
+            <p className="about-para reveal">
               Currently at <strong>Desk Nine Pvt Ltd, Bengaluru</strong>, building backend infrastructure
               for banking and KYC platforms, with an emphasis on reliability, maintainability,
               and scalable architecture for real-world financial software.

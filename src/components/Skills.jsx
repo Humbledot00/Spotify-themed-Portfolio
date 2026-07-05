@@ -62,6 +62,11 @@ export default function Skills() {
       <div className="container">
         <p className="section-label">Skills</p>
         <h2 className="section-heading">Technical Expertise</h2>
+        <p className="about-para reveal">
+          My technical work covers backend architecture, secure authentication, distributed systems,
+          and high-availability services for applications that need to perform consistently in production.
+          I build with Node.js, Spring Boot, REST APIs, WebSockets, Redis, Docker, and cloud-ready infrastructure.
+        </p>
 
         <div className="skills-grid">
           {skillCategories.map((cat, i) => (
