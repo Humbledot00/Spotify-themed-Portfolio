@@ -36,7 +36,7 @@ export default function About() {
         <div className="about-grid">
           {/* Left: text */}
           <div className="about-text">
-            <h2 className="section-heading reveal">Who I Am</h2>
+            <h2 className="section-heading reveal">Backend Engineer Specializing in Node.js, Spring Boot, and Microservices</h2>
 
             <p className="about-para reveal">
               I'm a backend-focused software engineer with hands-on experience building
@@ -54,8 +54,14 @@ export default function About() {
               interested in AI-assisted development workflows and developer tooling.
             </p>
             <p className="about-para reveal">
+              As a Backend Engineer, I focus on building systems that are secure, observable,
+              and easy to evolve. That means thoughtful API design, clear separation of concerns,
+              pragmatic testing, and strong collaboration with product and platform teams.
+            </p>
+            <p className="about-para reveal">
               Currently at <strong>Desk Nine Pvt Ltd, Bengaluru</strong>, building backend infrastructure
-              for banking and KYC platforms.
+              for banking and KYC platforms, with an emphasis on reliability, maintainability,
+              and scalable architecture for real-world financial software.
             </p>
           </div>
 

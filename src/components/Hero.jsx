@@ -40,7 +40,7 @@ export default function Hero() {
 
         {/* H1 */}
         <h1 className="hero-title animate-fade-in-up delay-200">
-          Hi, I'm <span className="hero-name">Shreyas M Rao</span>
+          Hi, I'm <span className="hero-name">Shreyas M Rao</span>, a Backend Engineer
         </h1>
 
         {/* H2 typewriter */}
@@ -51,7 +51,10 @@ export default function Hero() {
 
         <p className="hero-description animate-fade-in-up delay-350">
           I build reliable backend systems for fintech, real-time platforms, and secure digital products using Node.js, Java Spring Boot, microservices, and modern authentication.
-          Explore my <a href="#projects">projects</a>, <a href="#experience">experience</a>, and <a href="#contact">contact details</a>.
+          My work includes high-volume APIs, real-time communication services, queue-based workflows, and banking-grade platforms designed for performance, resilience, and clean maintainability.
+        </p>
+        <p className="hero-description animate-fade-in-up delay-360">
+          Shreyas M Rao is a backend engineer who enjoys turning complex requirements into dependable services that scale well and support business growth. Explore my <a href="#projects">projects</a>, <a href="#experience">experience</a>, and <a href="#contact">contact details</a>.
         </p>
 
         {/* CTA Buttons */}
