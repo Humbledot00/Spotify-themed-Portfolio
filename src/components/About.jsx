@@ -68,6 +68,9 @@ export default function About() {
               for banking and KYC platforms, with an emphasis on reliability, maintainability,
               and scalable architecture for real-world financial software.
             </p>
+            <p className="about-para reveal">
+              To see examples of this work, visit the <a href="#projects">projects</a> section, review my <a href="#experience">experience</a>, or explore my <a href="#skills">technical skills</a>.
+            </p>
           </div>
 
           {/* Right: stat cards */}

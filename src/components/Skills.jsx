@@ -67,6 +67,9 @@ export default function Skills() {
           and high-availability services for applications that need to perform consistently in production.
           I build with Node.js, Spring Boot, REST APIs, WebSockets, Redis, Docker, and cloud-ready infrastructure.
         </p>
+        <p className="about-para reveal">
+          For concrete examples of this work, visit the <a href="#projects">projects</a> and <a href="#experience">experience</a> sections.
+        </p>
 
         <div className="skills-grid">
           {skillCategories.map((cat, i) => (
